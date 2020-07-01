@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    background-image: linear-gradient(180deg, #00e1ff,#00aaff);
+    height:70px;
+    width:100%;
+
+}
+.navbar ul{
+    list-style:none;
+    margin-left: 92px;
+
+
+}
+.navbar ul li{
+    float:left;
+    padding: 20px 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size:20px;
+    color: black;
+}
+.logo img{
+    float: right;
+    width: 165px;
+    margin-top: 8px;
+    margin-right: 120px;
+}
+.active{
+    border-bottom: 5px solid;
+    border-image: linear-gradient(45deg, cyan, blue);
+    border-image-slice: 1;
+}
+.navbar ul li a:hover:not(.active){
+    border-bottom: 5px solid;
+    border-image: linear-gradient(45deg, cyan, blue);
+    border-image-slice: 1;
+    transition: 0.5;
+}
+
+/* content start */
+.highlight-text{
+    color: #ff3153;
+    font-weight: bold;
+    font-size: 30px;
+}
+.header{
+    height: 700px;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.content{
+    padding-top:20%;
+}
+.half-width img{
+    width:100%;
+    box-sizing: border-box;
+}
+
+.biography{
+    background-image: url("images/biography-bg.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+.button{
+    padding: 10px 20px;
+    margin-top: 5px;
+
+    background-image: linear-gradient(45deg, #ff748b,#ff2e5c);
+    border-radius: 30px;
+    border: none;
+}
+.button a{
+    text-decoration: none;
+    font-weight: 700;
+    color:white;
+
+}
+.button:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+
+}
+.latest-work h2{
+    text-align: center;
+    font-weight: 700;
+    padding: 15px;
+}
+.image{
+    width: 80%;
+    margin: 0 auto;
+}
+.image img{
+    float:left;
+    width:300px;
+    height:300px;
+    margin-left:75px;
+
+}
+.footer{
+    background-image: url("images/footer-bg.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+
+}
+.footer h1{
+    text-align: center;
+}
+.comment{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.message{
+    width: 35%;
+    margin: 0 auto;
+    background-image: linear-gradient(45deg, pink, hotpink);
+    text-align: center;
+    border-radius: 5px;
+    padding:7px;
+}
